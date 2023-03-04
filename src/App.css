@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+nav{
+  margin: 0;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+  margin: 12px;
+}
+
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout{
+  color: black;
+  font-size: 6px;
+}
+
+.loginpage{
+  margin-top: 25px;
+  margin-left: 12px;
+  font-size: 10px;
+}
+
+.loginpage p{
+  margin-bottom: 5px;
+}
+
+.loginpage button{
+  font-size: 8px;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.createpostpage{
+  width: 100%;
+  height: calc(100vh-80px);
+  display: grid;
+  place-items: center;
+}
+
+.cpContainer{
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  width: 260px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cpContainer h1{
+  text-align: center;
+  font-size: 25px;
+}
+
+.cpContainer label{
+  font-size: 15px;
+}
+
+.cpContainer .inputgp{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitbutton{
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.inputgp textarea{
+  display: block;
+  width: 258px;
+  height: 75px;
+}
